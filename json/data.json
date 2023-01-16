@@ -1,0 +1,102 @@
+{
+  "resume": [
+    {
+      "id": 1,
+      "company": "Coursera",
+      "title": "Software Engineer",
+      "startDate": "February 2022",
+      "endDate": "November 2022",
+      "description": [
+        "Implemented Educator Home 2.0, a more UI-friendly dashboard,for university staff members to track courses between institutions",
+        "Executed the implementation of Session Assistant Roles, including assisting in the scoping of the project, implementing key functionalities of the feature, and writing verbose unit tests.",
+        "Improved productivity of course staff involvement by creating Session Permissions and Session Assistants.",
+        "Enhanced efficiency and cohesiveness of test coverage while reducing errors by migrating Enzyme test suites to React Testing Library.",
+        "Mentored and onboarded interns and contractors, advised them on best practices, scoped their projects,and wrote their tickets and ticket requirements."
+      ],
+      "techStack": [
+        "Java",
+        "Scala",
+        "AWS ECR",
+        "S3",
+        "Aurora",
+        "React.js",
+        "TypeScript",
+        "GraphQL",
+        "React Testing Library",
+        "Jest"
+      ],
+      "logo": "/CourseraLogo.png"
+    },
+    {
+      "id": 2,
+      "company": "Coursera",
+      "title": "Software Engineering Intern",
+      "startDate": "September 2021",
+      "endDate": "December 2021",
+      "description": [
+        "Executed the implementation of featured on the Educator Admin Dashboard and the Course Staff Management Page.",
+        "Boosted staff members’ productivity related to course navigation by implementing Recently Viewed Courses on the Educator Admin Dashboard",
+        "Created multiple feature EPIC experiments",
+        "Conducted A/B Testing",
+        "Logged users' usages"
+      ],
+      "techStack": [
+        "Java",
+        "Scala",
+        "AWS ECR",
+        "S3",
+        "Aurora",
+        "React.js",
+        "TypeScript",
+        "GraphQL",
+        "React Testing Library",
+        "Jest"
+      ],
+      "logo": "/CourseraLogo.png"
+    },
+    {
+      "id": 3,
+      "company": "Beatdapp",
+      "title": "Software Engineering Intern",
+      "startDate": "May 2020",
+      "endDate": "September 2020",
+      "description": [
+        "Completed the implementation of the foundational user experience for the company’s mobile application Renaissance.",
+        "Spearheaded the development and implementation of the company’s internal-based mobile app AWOL.",
+        "Project AWOL - Kept track of the company’s internal games, track points, and user statistics used to calculate users’ Elo/rank within the company against other co-workers/offices."
+      ],
+      "techStack": [
+        "React.js",
+        "React Native",
+        "iOS",
+        "Xcode",
+        "Expo",
+        "MySQL",
+        "Sequelize",
+        "Node.js",
+        "Express.js"
+      ],
+      "logo": "/BeatdappLogo.png"
+    },
+    {
+      "id": 4,
+      "company": "SAP",
+      "title": "Software Engineering Intern",
+      "startDate": "September 2018",
+      "endDate": "August 2019",
+      "description": [
+        "Boosted efficiency by implementing key features within the backend of SAP’s Help Portal.",
+        "Ensured the stability of SAP’s User Assistance Portal by automating UI tests by creating verbose JavaScript tests.",
+        "Improved the efficiency of functions by migrating automation tests written in Protractor.js into Nightwatch.js."
+      ],
+      "techStack": [
+        "Java",
+        "JavaScript",
+        "Angular.js",
+        "Protractor.js",
+        "Nightwatch.js"
+      ],
+      "logo": "/SAPLogo.png"
+    }
+  ]
+}
