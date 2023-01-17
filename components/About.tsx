@@ -4,7 +4,7 @@ export default function About() {
 		<>
 			<div>
 				<h1 className="text-5xl text-black py-4 text-center">About Me</h1>
-				<div className="bg-white p-0.5 rounded-lg">
+				<div className="bg-white p-0.5 rounded-lg shadow-lg shadow-black-500/50 mt-8">
 					<p className="text-center my-12 text-black text-xl"
 					>
 						I am a software engineer with a great affinity for problem

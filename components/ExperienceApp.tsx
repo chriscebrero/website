@@ -3,7 +3,7 @@ import experience from '../json/data.json';
 
 
 
-const Experience = () => {
+const ExperienceApp = () => {
 	return (
 		<>
 			<div id="experience">
@@ -30,4 +30,4 @@ const Experience = () => {
 	);
 };
 
-export default Experience;
+export default ExperienceApp;

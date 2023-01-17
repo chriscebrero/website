@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "AWOL - Beatdapp",
+      "description": [
+        "Keeps track of company’s internal games, track points, and user statistics which are then used to calculate an employee’s elo",
+        "Designed to showcase how well companies fare against other companies in terms of certain games based on win rate ratio",
+        "Reach achievements & badges based on how good/bad one is in a game",
+        "Creating a website counterpart where users can register/view statistics on their computer"
+      ],
+      "techStack": [
+        "React Native",
+        "React.js",
+        "MySQL",
+        "Sequelize",
+        "Expo",
+        "Node.js",
+        "Express.js",
+        "JavaScript"
+      ],
+      "logo": "/CourseraLogo.png",
+      "hexcode": "0055d3"
+    },
+    {
+      "id": 2,
+      "name": "Ren - Beatdapp",
+      "description": [
+        "Application used to interpret the idea of existing app, 'Renaissance'",
+        "Utilized Spotify API to capture amount of streams a user has listening to a song",
+        "Calculated streams and activity on the application earns a user some rewards",
+        "Host streaming parties where fans with similar taste can connect"
+      ],
+      "techStack": [
+        "React Native",
+        "Expo",
+        "Spotify API",
+        "Node.js",
+        "Express.js",
+        "JavaScript"
+      ],
+      "logo": "/CourseraLogo.png",
+      "hexcode": "0055d3"
+    },
+    {
+      "id": 3,
+      "name": "Radiate Web",
+      "description": [
+        "Web Application used to simulate the same functionality of the mobile app, 'Radiate'",
+        "List all upcoming festivals based on date where one can RSVP, and meet other concert-goers prior to the date",
+        "Users can RVSP, and then are given to event-exclusive discussions and other people can connect"
+      ],
+      "techStack": [
+        "React.js",
+        "CSS3/HTML5",
+        "TypeScript",
+        "Node.js",
+        "Express.js"
+      ],
+      "logo": "/CourseraLogo.png",
+      "hexcode": "0055d3"
+    }
+  ]
+}

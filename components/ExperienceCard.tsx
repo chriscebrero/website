@@ -1,4 +1,5 @@
 import Image from "next/image";
+import React from "react";
 
 type Props = {
         company: string;
@@ -17,7 +18,7 @@ const ExperienceCard: React.FC<Props> = ({company, title, startDate, endDate, de
 		<>
 			<div className={`max-w-screen-xl h-auto flex flex-row bg-[#${hexcode}] rounded-xl shadow-lg shadow-black-500/50 my-12`}>
 					<div className="flex-column text-left w-4/6 px-16 py-6 bg-gray-50 rounded-l-xl">
-                        <h1 className="text-black text-4xl font-bold">{company}</h1>
+                        <h1 className="font-mono text-black text-4xl font-bold">{company}</h1>
                         <h2 className="text-black text-2xl font-bold">
                             {title}
                         </h2>

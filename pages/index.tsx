@@ -6,7 +6,9 @@ import Banner from "../components/Banner";
 import SocialApps from "../components/SocialApps";
 import About from "../components/About";
 import Skills from "../components/Skills";
-import Experience from "../components/Experience";
+import ExperienceApp from "../components/ExperienceApp";
+import Navigator from "../components/Navigator";
+import ProjectApp from "../components/ProjectApp";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,28 +22,13 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<main className={styles.main}>
-				<div className="flex flex-row-reverse mb-16">
-					<button className="hover:opacity-50">
-					<a href="#projects" className="px-12 text-4xl">
-						Projects
-					</a>
-					</button>
-					<button className="hover:opacity-50">
-					<a href="#experience" className="px-12 text-4xl">
-						Experience
-					</a>
-					</button>
-					<button className="hover:opacity-50">
-					<a href="#skills" className="px-12 text-4xl">
-						Skills
-					</a>
-					</button>
-				</div>
+				<Navigator />
 				<Banner />
 				<SocialApps />
 				<About />
 				<Skills />
-				<Experience />
+				<ExperienceApp />
+				<ProjectApp />
 			</main>
 		</>
 	);
