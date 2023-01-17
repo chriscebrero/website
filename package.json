@@ -6,8 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "next build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://chriscebrero.github.io/website",
   "dependencies": {
     "@next/font": "13.1.1",
     "@types/node": "18.11.18",
