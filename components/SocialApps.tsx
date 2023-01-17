@@ -4,7 +4,7 @@ export default function SocialApps() {
 	return (
 		<>
 			<div
-				className="flex flex-row"
+				className="flex flex-row justify-center"
 			>
 				<button>
 					<a href="https://www.linkedin.com/in/ccebrero/" target="_blank" rel="noreferrer">

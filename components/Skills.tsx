@@ -31,7 +31,7 @@ const TOOLS = [
 export default function Skills() {
 	return (
 		<>
-			<div style={{ display: "flex", flexDirection: "row" }}>
+			<div id="skills" className="flex flex-row justify-center">
 				<SkillsContainer
 					img={"/frontend.svg"}
 					skillSet={FRONT_END_SKILLS}

@@ -26,7 +26,8 @@
         "React Testing Library",
         "Jest"
       ],
-      "logo": "/CourseraLogo.png"
+      "logo": "/CourseraLogo.png",
+      "hexcode": "0055d3"
     },
     {
       "id": 2,
@@ -54,7 +55,8 @@
         "React Testing Library",
         "Jest"
       ],
-      "logo": "/CourseraLogo.png"
+      "logo": "/CourseraLogo.png",
+      "hexcode": "0055d3"
     },
     {
       "id": 3,
@@ -79,7 +81,8 @@
         "Node.js",
         "Express.js"
       ],
-      "logo": "/BeatdappLogo.png"
+      "logo": "/BeatdappLogo.png",
+      "hexcode": "932dca"
     },
     {
       "id": 4,
@@ -100,7 +103,8 @@
         "Protractor.js",
         "Nightwatch.js"
       ],
-      "logo": "/SAPLogo.png"
+      "logo": "/SAPLogo.png",
+      "hexcode": "00427b"
     }
   ]
 }

@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function Banner() {
 	return (
 		<>
-			<div className="max-w-screen-xl flex flex-row mb-16 justify-between content-between">
+			<div className="flex flex-row mb-16 justify-evenly">
 				<Image
-					className="rounded-full mr-20 shadow-lg shadow-black-500/40"
+					className="rounded-full shadow-lg shadow-black-500/40"
 					src="/profilePhoto.jpeg"
 					width={250}
 					height={250}

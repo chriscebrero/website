@@ -20,19 +20,22 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<main className={styles.main}>
-				<div className="flex justify-end justify-self-end text-right">
-					<a>
+				<div className="flex flex-row-reverse mb-16">
+					<button className="hover:opacity-50">
+					<a href="#projects" className="px-12 text-4xl">
+						Projects
+					</a>
+					</button>
+					<button className="hover:opacity-50">
+					<a href="#experience" className="px-12 text-4xl">
+						Experience
+					</a>
+					</button>
+					<button className="hover:opacity-50">
+					<a href="#skills" className="px-12 text-4xl">
 						Skills
 					</a>
-					<a>
-						Skills
-					</a>
-					<a>
-						Skills
-					</a>
-					<a>
-						Skills
-					</a>
+					</button>
 				</div>
 				<Banner />
 				<SocialApps />

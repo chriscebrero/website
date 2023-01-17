@@ -19,9 +19,9 @@ const SkillsContainer: React.FC<Props> = ({ img, skillSet, title }) => {
 					height={100}
 					alt={title}
 				/>
-				<h1 className="text-black mb-4 font-semibold text-2xl">{title}</h1>
+				<h1 className="text-black mb-4 font-semibold text-2xl text-center">{title}</h1>
 				{skillSet.map((item) => (
-					<h3 className="text-black py-1" key={item}>
+					<h3 className="text-black py-1 text-center" key={item}>
 						{item}
 					</h3>
 				))}
