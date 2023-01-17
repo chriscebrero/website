@@ -20,6 +20,20 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<main className={styles.main}>
+				<div className="flex justify-end justify-self-end text-right">
+					<a>
+						Skills
+					</a>
+					<a>
+						Skills
+					</a>
+					<a>
+						Skills
+					</a>
+					<a>
+						Skills
+					</a>
+				</div>
 				<Banner />
 				<SocialApps />
 				<About />

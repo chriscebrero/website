@@ -6,6 +6,7 @@
       "title": "Software Engineer",
       "startDate": "February 2022",
       "endDate": "November 2022",
+      "team": "Educator Admin Platform",
       "description": [
         "Implemented Educator Home 2.0, a more UI-friendly dashboard,for university staff members to track courses between institutions",
         "Executed the implementation of Session Assistant Roles, including assisting in the scoping of the project, implementing key functionalities of the feature, and writing verbose unit tests.",
@@ -33,6 +34,7 @@
       "title": "Software Engineering Intern",
       "startDate": "September 2021",
       "endDate": "December 2021",
+      "team": "Educator Admin Platform",
       "description": [
         "Executed the implementation of featured on the Educator Admin Dashboard and the Course Staff Management Page.",
         "Boosted staff members’ productivity related to course navigation by implementing Recently Viewed Courses on the Educator Admin Dashboard",
@@ -60,6 +62,7 @@
       "title": "Software Engineering Intern",
       "startDate": "May 2020",
       "endDate": "September 2020",
+      "team": "Beatdapp, Renaissance, AWOL",
       "description": [
         "Completed the implementation of the foundational user experience for the company’s mobile application Renaissance.",
         "Spearheaded the development and implementation of the company’s internal-based mobile app AWOL.",
@@ -84,6 +87,7 @@
       "title": "Software Engineering Intern",
       "startDate": "September 2018",
       "endDate": "August 2019",
+      "team": "User Assistance Content Portal, Hybris",
       "description": [
         "Boosted efficiency by implementing key features within the backend of SAP’s Help Portal.",
         "Ensured the stability of SAP’s User Assistance Portal by automating UI tests by creating verbose JavaScript tests.",

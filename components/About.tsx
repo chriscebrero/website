@@ -1,11 +1,8 @@
-import Image from "next/image";
-import styles from "../styles/Banner.module.css";
-
 export default function About() {
 	return (
 		<>
 			<div>
-				<h1 style={{ fontSize: "45px", color: "black" }}>About Me</h1>
+				<h1 className="text-5xl text-black py-4">About Me</h1>
 				<p
 					style={{
 						margin: "0px 40px 0px 40px",
@@ -18,7 +15,17 @@ export default function About() {
 					am known by my teams for innovative thinking and as a keen
 					investigator of root causes of problems. My background in Mathematics
 					as well as Computer Science, helps make programming exceptionally
-					rewarding and logical for me.
+					rewarding and logical for me. When I'm not building apps and/or working, you can find me playing piano,
+					play volleyball, playing Nintendo Switch or tinkering with Logic Pro X
+				</p>
+				<p
+					style={{
+						margin: "0px 40px 0px 40px",
+						color: "black",
+						fontSize: "20px",
+					}}
+				>
+					Check out my work experience and projects below.
 				</p>
 			</div>
 		</>

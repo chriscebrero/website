@@ -33,18 +33,18 @@ export default function Skills() {
 		<>
 			<div style={{ display: "flex", flexDirection: "row" }}>
 				<SkillsContainer
-					img={"/linkedin.svg"}
+					img={"/frontend.svg"}
 					skillSet={FRONT_END_SKILLS}
 					title="Front End"
 				/>
 
 				<SkillsContainer
-					img={"/linkedin.svg"}
+					img={"/backend.svg"}
 					skillSet={BACK_END_SKILLS}
 					title="Back End"
 				/>
 
-				<SkillsContainer img={"/linkedin.svg"} skillSet={TOOLS} title="Tools" />
+				<SkillsContainer img={"/tools.svg"} skillSet={TOOLS} title="Tools" />
 			</div>
 		</>
 	);
