@@ -2,13 +2,13 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
-import Banner from "./components/Banner";
-import SocialApps from "./components/SocialApps";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import ExperienceApp from "./components/ExperienceApp";
-import Navigator from "./components/Navigator";
-import ProjectApp from "./components/ProjectApp";
+import Banner from "../components/Banner";
+import SocialApps from "../components/SocialApps";
+import About from "../components/About";
+import Skills from "../components/Skills";
+import ExperienceApp from "../components/ExperienceApp";
+import Navigator from "../components/Navigator";
+import ProjectApp from "../components/ProjectApp";
 
 const inter = Inter({ subsets: ["latin"] });
 
