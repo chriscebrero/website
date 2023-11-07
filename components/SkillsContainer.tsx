@@ -10,7 +10,10 @@ type Props = {
 const SkillsContainer: React.FC<Props> = ({ img, skillSet, title }) => {
 	return (
 		<>
-			<div className="bg-white mx-16 my-12 rounded-2xl shadow-lg shadow-black-500/50" style={{ flexDirection: "column" }}>
+			<div
+				className="bg-[#EBE3D5] mx-16 my-12 rounded-2xl shadow-lg shadow-black-500/50"
+				style={{ flexDirection: "column" }}
+			>
 				<Image
 					className="py-5"
 					style={{ margin: "0 60px" }}
@@ -19,9 +22,11 @@ const SkillsContainer: React.FC<Props> = ({ img, skillSet, title }) => {
 					height={100}
 					alt={title}
 				/>
-				<h1 className="text-black mb-4 font-semibold text-2xl text-center">{title}</h1>
+				<h1 className="text-[#776B5D] mb-4 font-semibold text-2xl text-center">
+					{title}
+				</h1>
 				{skillSet.map((item) => (
-					<h3 className="text-black py-1 text-center" key={item}>
+					<h3 className="text-[#776B5D] py-1 text-center" key={item}>
 						{item}
 					</h3>
 				))}

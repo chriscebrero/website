@@ -12,8 +12,12 @@ export default function Banner() {
 					alt="profilepicture"
 				/>
 				<div className="flex-column self-center">
-					<h1 className="text-7xl my-8">Christian Cebrero</h1>
-					<h1 className="text-7xl my-8">Software Engineer</h1>
+					<h1 className="text-7xl my-8 text-[#776B5D] drop-shadow-xl">
+						Christian Cebrero
+					</h1>
+					<h1 className="text-7xl my-8 text-[#776B5D] drop-shadow-xl">
+						Software Engineer
+					</h1>
 				</div>
 			</div>
 		</>

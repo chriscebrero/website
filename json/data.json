@@ -2,6 +2,28 @@
   "resume": [
     {
       "id": 1,
+      "company": "Binance",
+      "title": "Software Engineer",
+      "startDate": "April 2023",
+      "endDate": "October 2023",
+      "team": ".COM",
+      "description": [
+        "Increased efficiency and visibility by implementing more UI-friendly components and key features on Binance’s main dashboard on all computer, tablet, mobile views.",
+        "Enhanced developer experience and productivity by migrating JavaScript files into TypeScript.",
+        "Mentoring and onboarded interns, advised them on best practices, gave them valuable resources and insight whenever needed"
+      ],
+      "techStack": [
+        "React.js",
+        "TypeScript",
+        "GraphQL",
+        "React Testing Library",
+        "Jest"
+      ],
+      "logo": "/BinanceLogo.png",
+      "hexcode": "333333"
+    },
+    {
+      "id": 2,
       "company": "Coursera",
       "title": "Software Engineer",
       "startDate": "February 2022",
@@ -30,7 +52,7 @@
       "hexcode": "0055d3"
     },
     {
-      "id": 2,
+      "id": 3,
       "company": "Coursera",
       "title": "Software Engineering Intern",
       "startDate": "September 2021",
@@ -59,7 +81,7 @@
       "hexcode": "0055d3"
     },
     {
-      "id": 3,
+      "id": 4,
       "company": "Beatdapp",
       "title": "Software Engineering Intern",
       "startDate": "May 2020",
@@ -85,7 +107,7 @@
       "hexcode": "932dca"
     },
     {
-      "id": 4,
+      "id": 5,
       "company": "SAP",
       "title": "Software Engineering Intern",
       "startDate": "September 2018",

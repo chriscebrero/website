@@ -14,8 +14,9 @@ const BACK_END_SKILLS = [
 	"Java",
 	"Swift",
 	"C/C++",
-	"Node/Express",
+	"Node.js/Express",
 	"MongoDB",
+	"MySQL",
 ];
 
 const TOOLS = [
