@@ -8,16 +8,21 @@
       "endDate": "October 2023",
       "team": ".COM",
       "description": [
-        "Increased efficiency and visibility by implementing more UI-friendly components and key features on Binance’s main dashboard on all computer, tablet, mobile views.",
-        "Enhanced developer experience and productivity by migrating JavaScript files into TypeScript.",
-        "Mentoring and onboarded interns, advised them on best practices, gave them valuable resources and insight whenever needed"
+        "Implemented key features that resulted in a 25% reduction in user errors and a 30% increase in overall platform usability",
+        "Successfully migrated 50+ JavaScript files to TypeScript, reducing the number of runtime errors by 40% and improving code scalability",
+        "Facilitated a seamless user experience across various devices (PC, tablet, mobile) by migrating from regular CSS to Tailwind CSS",
+        "Conducted TypeScript and Tailwind CSS migration training sessions for the team, resulting in a reduction in bug-fixing time",
+        "Mentored and supplied valuable resources to interns, resulting in an improvement in the interns' project delivery timelines"
       ],
       "techStack": [
         "React.js",
         "TypeScript",
         "GraphQL",
         "React Testing Library",
-        "Jest"
+        "Jest",
+        "Java",
+        "AWS",
+        "Tailwind CSS"
       ],
       "logo": "/BinanceLogo.png",
       "hexcode": "333333"
@@ -30,11 +35,11 @@
       "endDate": "November 2022",
       "team": "Educator Admin Platform",
       "description": [
-        "Implemented Educator Home 2.0, a more UI-friendly dashboard,for university staff members to track courses between institutions",
-        "Executed the implementation of Session Assistant Roles, including assisting in the scoping of the project, implementing key functionalities of the feature, and writing verbose unit tests.",
-        "Improved productivity of course staff involvement by creating Session Permissions and Session Assistants.",
-        "Enhanced efficiency and cohesiveness of test coverage while reducing errors by migrating Enzyme test suites to React Testing Library.",
-        "Mentored and onboarded interns and contractors, advised them on best practices, scoped their projects,and wrote their tickets and ticket requirements."
+        "Spearheaded the implementation of Educator Home 2.0, elevating university staff members' user experience and productivity",
+        "Engineered API Integrations using GraphQL, resulting in an increase in data retrieval speed and led to improved course tracking efficiency for university staff members",
+        "Successfully implemented Session Assistant Roles by effectively scoping the project and developing verbose unit tests, which led to a decrease in post-implementation bugs and an increase in user efficiency",
+        "Enhanced test coverage efficiency and reduced testing time by 40%, by migrating Enzyme test suites to React Testing Library",
+        "Mentored and onboarded both interns and contractors, advised them on best practices, scoped their projects, and wrote their tickets"
       ],
       "techStack": [
         "Java",
@@ -45,6 +50,8 @@
         "React.js",
         "TypeScript",
         "GraphQL",
+        "Apollo",
+        "Emotion",
         "React Testing Library",
         "Jest"
       ],
@@ -59,11 +66,11 @@
       "endDate": "December 2021",
       "team": "Educator Admin Platform",
       "description": [
-        "Executed the implementation of featured on the Educator Admin Dashboard and the Course Staff Management Page.",
-        "Boosted staff members’ productivity related to course navigation by implementing Recently Viewed Courses on the Educator Admin Dashboard",
-        "Created multiple feature EPIC experiments",
-        "Conducted A/B Testing",
-        "Logged users' usages"
+        "Contributed to the enhancement of the user experience for the Educator Home Dashboard and Course Staff Management Page",
+        "Elevated staff productivity in course navigation by implementing Recently Viewed Courses component",
+        "Conducted EPIC experiments and A/B testing plans to roll out, and validate the effectiveness of Recently Viewed Courses",
+        "Implemented user usage logging via Full Story and Data Dog to gain insightful data on Recently Viewed Course's impact",
+        "Enhanced accessibility and cohesiveness by 30% through the successful migration of Coursera UI to Coursera Design System"
       ],
       "techStack": [
         "Java",
@@ -74,6 +81,8 @@
         "React.js",
         "TypeScript",
         "GraphQL",
+        "Apollo",
+        "Emotion",
         "React Testing Library",
         "Jest"
       ],
@@ -88,9 +97,9 @@
       "endDate": "September 2020",
       "team": "Beatdapp, Renaissance, AWOL",
       "description": [
-        "Completed the implementation of the foundational user experience for the company’s mobile application Renaissance.",
-        "Spearheaded the development and implementation of the company’s internal-based mobile app AWOL.",
-        "Project AWOL - Kept track of the company’s internal games, track points, and user statistics used to calculate users’ Elo/rank within the company against other co-workers/offices."
+        "Successfully implemented the foundational user experience for the company’s mobile application, Renaissance",
+        "Spearheaded the creation of the tailored mobile application, AWOL, demonstrating leadership throughout the project life cycle",
+        "Project AWOL – Managed and implemented the progress of internal games, engineered a sophisticated algorithm for calculating users’ rank within the company which led to cultivating a competitive yet engaging company culture"
       ],
       "techStack": [
         "React.js",
@@ -114,9 +123,10 @@
       "endDate": "August 2019",
       "team": "User Assistance Content Portal, Hybris",
       "description": [
-        "Boosted efficiency by implementing key features within the backend of SAP’s Help Portal.",
-        "Ensured the stability of SAP’s User Assistance Portal by automating UI tests by creating verbose JavaScript tests.",
-        "Improved the efficiency of functions by migrating automation tests written in Protractor.js into Nightwatch.js."
+        "Spearheaded backend improvements within SAP's Help Portal, introducing key features that significantly boosted overall system efficiency.",
+        "Elevated the stability of SAP's User Assistance Portal by implementing robust UI automation tests using JavaScript.",
+        "Achieved comprehensive test coverage to identify and address potential issues.",
+        "Enhanced efficiency by strategically migrating automation tests from Protractor.js to Nightwatch.js"
       ],
       "techStack": [
         "Java",

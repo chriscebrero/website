@@ -8,14 +8,17 @@ export default function About() {
 				</h1>
 				<div className="bg-[#EBE3D5] p-0.5 rounded-lg shadow-lg shadow-black-500/50 mt-8">
 					<p className="text-center my-12 text-[#776B5D] tracking-wide text-xl">
-						I am a software engineer with a great affinity for problem solving.
-						I am highly motivated to learn and take on new challenges. I am
-						known by my teams for innovative thinking and as a keen investigator
-						of root causes of problems. My background in Mathematics as well as
-						Computer Science, helps make programming exceptionally rewarding and
-						logical for me. When I'm not building apps and/or working, you can
-						find me playing piano, playing volleyball, snowboarding, playing
-						Nintendo Switch or tinkering with Logic Pro X
+						Highly motivated and innovative Software Engineer renowned for adept
+						problem-solving and a keen investigative approach to root cause
+						analysis. Backed by a solid foundation in Mathematics and Computer
+						Science, I bring a logical and rewarding perspective to programming.
+						Known for embracing challenges, I consistently contribute innovative
+						solutions to complex problems. A continuous learner with a passion
+						for staying updated on emerging technologies, I leverage a diverse
+						skill set to enhance development processes. Beyond the professional
+						realm, I channel creativity into musical pursuits as a pianist, stay
+						active through sports like volleyball and snowboarding, and enjoy
+						playing Nintendo Switch.
 					</p>
 				</div>
 				<p className="text-center my-12 text-[#776B5D] text-xl">
