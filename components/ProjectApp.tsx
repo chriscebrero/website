@@ -6,7 +6,9 @@ const ProjectApp = () => {
 	return (
 		<>
 			<div id="projects">
-				<h1 className="text-5xl text-[#776B5D] py-4 text-center">Projects</h1>
+				<h1 className="text-3xl lg:text-5xl text-[#776B5D] py-4 text-center">
+					Projects
+				</h1>
 				<div className="content-center text-center flex flex-col flex-wrap">
 					{experience.projects.map((e: any) => (
 						<ProjectCard

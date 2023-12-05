@@ -3,7 +3,7 @@ export default function About() {
 	return (
 		<>
 			<div>
-				<h1 className="text-5xl text-[#776B5D] py-4 text-center tracking-wide">
+				<h1 className="text-3xl lg:text-5xl text-[#776B5D] py-4 text-center tracking-wide">
 					About Me
 				</h1>
 				<div className="bg-[#EBE3D5] p-0.5 rounded-lg shadow-lg shadow-black-500/50 mt-8">
