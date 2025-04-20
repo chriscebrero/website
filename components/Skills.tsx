@@ -2,50 +2,72 @@ import SkillsContainer from "./SkillsContainer";
 
 const FRONT_END_SKILLS = [
 	"HTML5/CSS3",
-	"JavaScript",
+	"React",
 	"TypeScript",
-	"React.js/React Native",
+	"React Native",
 	"Next.js",
-	"SwiftUI",
+	"Angular",
 ];
 
 const BACK_END_SKILLS = [
 	"Python",
+	"GraphQL",
+	"REST APIs",
 	"Java",
-	"Swift",
-	"C/C++",
-	"Node.js/Express",
-	"MongoDB",
+	"Node.js",
+	"AWS (Lambda, Cloudwatch, S3)",
 	"MySQL",
 ];
 
-const TOOLS = [
-	"Apollo/GraphQL",
-	"Agile",
-	"Git",
-	"Jest",
-	"React Testing Library",
-	"Enzyme",
-	"DynamoDB",
+const TOOLS = ["Git", "Webpack", "Storybook"];
+
+const TESTING_SKILLS = ["Jest", "Cypress", "Mocha", "React Testing Library"];
+
+const DEVOPS = ["Docker", "Kubernetes", "CI/CD", "Elastic Stack"];
+
+const SKILLS = [
+	{
+		name: "Front End",
+		skills: FRONT_END_SKILLS,
+		image: "/frontend.svg",
+	},
+	{
+		name: "Back End",
+		skills: BACK_END_SKILLS,
+		image: "/backend.svg",
+	},
+	{
+		name: "Tools",
+		skills: TOOLS,
+		image: "/tools.svg",
+	},
+	{
+		name: "Testing",
+		skills: TESTING_SKILLS,
+		image: "/testcase.svg",
+	},
+	{
+		name: "DevOps",
+		skills: DEVOPS,
+		image: "/devops.svg",
+	},
 ];
 
 export default function Skills() {
 	return (
 		<>
-			<div id="skills" className="flex flex-col lg:flex-row justify-center">
-				<SkillsContainer
-					img={"/frontend.svg"}
-					skillSet={FRONT_END_SKILLS}
-					title="Front End"
-				/>
-
-				<SkillsContainer
-					img={"/backend.svg"}
-					skillSet={BACK_END_SKILLS}
-					title="Back End"
-				/>
-
-				<SkillsContainer img={"/tools.svg"} skillSet={TOOLS} title="Tools" />
+			<div
+				id="skills"
+				className="flex flex-col lg:flex-row justify-center items-center gap-8 px-4 py-10"
+			>
+				{SKILLS.map((skills, index) => (
+					<SkillsContainer
+						key={index}
+						title={skills.name}
+						img={skills.image}
+						skillSet={skills.skills}
+					/>
+				))}
 			</div>
 		</>
 	);

@@ -2,48 +2,49 @@ import Image from "next/image";
 
 export default function SocialApps() {
 	return (
-		<>
-			<div className="flex flex-row justify-center">
-				<button>
-					<a
-						href="https://www.linkedin.com/in/ccebrero/"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<Image
-							className="mx-4 w-12 h-12 lg:w-20 lg:h-20 lg:mx-20 hover:opacity-50"
-							src="/linkedin.svg"
-							width="0"
-							height="0"
-							alt="LinkedIn"
-						/>
-					</a>
-				</button>
-				<button>
-					<a
-						href="https://github.com/chriscebrero"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<Image
-							className="mx-4 w-12 h-12 lg:w-20 lg:h-20 lg:mx-20 hover:opacity-50"
-							src="/github.svg"
-							width="0"
-							height="0"
-							alt="LinkedIn"
-						/>
-					</a>
-				</button>
-				<button>
-					<Image
-						className="mx-4 w-12 h-12 lg:w-20 lg:h-20 lg:mx-20 hover:opacity-50"
-						src="/resume.svg"
-						width="0"
-						height="0"
-						alt="LinkedIn"
-					/>
-				</button>
+		<div className="flex justify-center gap-6 lg:gap-20 py-12 rounded-none bg-[var(--color-pistachio)]">
+			{/* LinkedIn */}
+			<a
+				href="https://www.linkedin.com/in/ccebrero/"
+				target="_blank"
+				rel="noreferrer"
+				className="transition-transform hover:scale-105 hover:opacity-70"
+			>
+				<Image
+					src="/linkedin.svg"
+					alt="LinkedIn"
+					width={80}
+					height={80}
+					className="w-12 h-12 lg:w-20 lg:h-20"
+				/>
+			</a>
+
+			{/* GitHub */}
+			<a
+				href="https://github.com/chriscebrero"
+				target="_blank"
+				rel="noreferrer"
+				className="transition-transform hover:scale-105 hover:opacity-70"
+			>
+				<Image
+					src="/github.svg"
+					alt="GitHub"
+					width={80}
+					height={80}
+					className="w-12 h-12 lg:w-20 lg:h-20"
+				/>
+			</a>
+
+			{/* Resume Icon */}
+			<div className="transition-transform hover:scale-105 hover:opacity-70 cursor-pointer">
+				<Image
+					src="/resume.svg"
+					alt="Resume"
+					width={80}
+					height={80}
+					className="w-12 h-12 lg:w-20 lg:h-20"
+				/>
 			</div>
-		</>
+		</div>
 	);
 }

@@ -8,6 +8,13 @@ type Props = {
 	hexcode?: string;
 };
 
+// Earthy tones for tag variation
+const earthToneTags = [
+	"bg-[var(--color-sage)]",
+	"bg-[var(--color-pistachio)]",
+	"bg-[var(--color-cream)]",
+];
+
 const ProjectCard: React.FC<Props> = ({
 	name,
 	description,
@@ -16,42 +23,46 @@ const ProjectCard: React.FC<Props> = ({
 	hexcode,
 }) => {
 	return (
-		<>
-			<div
-				className={`lg:max-w-screen-xl lg:h-auto flex flex-row-reverse rounded-xl shadow-lg shadow-black-500/50 my-4 lg:my-12`}
-			>
-				<div className="px-6 flex-column text-left lg:w-4/6 lg:px-16 py-6 bg-gray-50 rounded-r-xl">
-					<h1 className="text-[#776B5D] text-2xl lg:text-4xl font-bold">
-						{name}
-					</h1>
-					{techStack.map((item, index) => (
-						<div
-							key={index}
-							className="inline-grid bg-green-500 px-2 py-1 mr-1 my-1 lg:px-4 lg:py-2 lg:mr-2 lg:my-2 rounded-md shadow-xl shadow-black-500/50"
-						>
-							<p className="lg:text-base text-xs text-white">{item}</p>
-						</div>
-					))}
+		<article className="lg:max-w-screen-xl flex flex-col-reverse lg:flex-row-reverse rounded-2xl border border-[var(--color-caramel)] overflow-hidden shadow-lg hover:shadow-2xl hover:scale-[1.01] transition-all duration-300 bg-[var(--color-eggshell)]">
+			{/* LEFT: Text Content */}
+			<div className="px-6 py-8 lg:px-14 lg:py-12 flex flex-col justify-center lg:w-4/6 text-[#4F463B]">
+				<h1 className="text-2xl lg:text-4xl font-bold mb-4">{name}</h1>
 
-					<ul style={{ listStyleType: "circle" }}>
-						{description.map((d, index) => (
-							<li className="text-sm lg:text-base text-[#776B5D]" key={index}>
-								{d}
-							</li>
-						))}
-					</ul>
+				{/* Tech Stack Tags */}
+				<div className="flex flex-wrap gap-2 mb-6">
+					{techStack.map((item, index) => (
+						<span
+							key={index}
+							className={`${
+								earthToneTags[index % earthToneTags.length]
+							} text-[#4F463B] text-xs lg:text-sm px-3 py-1 rounded-md shadow-sm`}
+						>
+							{item}
+						</span>
+					))}
 				</div>
-				<div className="hidden lg:mx-auto lg:flex lg:items-center">
+
+				{/* Description */}
+				<ul className="list-disc list-inside text-sm lg:text-base leading-relaxed space-y-2">
+					{description.map((d, index) => (
+						<li key={index}>{d}</li>
+					))}
+				</ul>
+			</div>
+
+			{/* RIGHT: Logo Block */}
+			<div className="relative lg:w-2/6 w-full h-full bg-white">
+				<div className="relative w-full h-full">
 					<Image
-						className="lg:mx-auto lg:rounded-full lg:h-auto lg:object-cover"
 						src={logo}
-						width={300}
-						height={300}
-						alt={name}
+						alt={`${name} logo`}
+						fill
+						className="object-contain p-12"
+						sizes="(max-width: 768px) 100vw, 33vw"
 					/>
 				</div>
 			</div>
-		</>
+		</article>
 	);
 };
 

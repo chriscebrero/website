@@ -3,26 +3,26 @@
     {
       "id": 1,
       "company": "Binance",
-      "title": "Software Engineer",
+      "title": "Contract Software Engineer",
       "startDate": "April 2023",
       "endDate": "October 2023",
       "team": ".COM",
       "description": [
-        "Implemented key features that resulted in a 25% reduction in user errors and a 30% increase in overall platform usability",
-        "Successfully migrated 50+ JavaScript files to TypeScript, reducing the number of runtime errors by 40% and improving code scalability",
-        "Facilitated a seamless user experience across various devices (PC, tablet, mobile) by migrating from regular CSS to Tailwind CSS",
-        "Conducted TypeScript and Tailwind CSS migration training sessions for the team, resulting in a reduction in bug-fixing time",
-        "Mentored and supplied valuable resources to interns, resulting in an improvement in the interns' project delivery timelines"
+        "Optimized full-stack financial dashboards, enhancing trader engagement and reducing dashboard latency by 20%.",
+        "Monitored performance with AWS CloudWatch and Elastic Stack, proactively addressing bottlenecks to maintain 99.9% uptime.",
+        "Built cross-browser responsive UI components to enhance user accessibility across global markets.",
+        "Mentored junior engineers in full-stack practices and scalable architecture.",
+        "Implemented GraphQL APIs, improving backend code reuse and enabling faster integration for internal teams."
       ],
       "techStack": [
-        "React.js",
-        "TypeScript",
+        "React",
+        "Python",
         "GraphQL",
-        "React Testing Library",
-        "Jest",
-        "Java",
-        "AWS",
-        "Tailwind CSS"
+        "AWS Lambda",
+        "CloudWatch",
+        "Elastic Stack",
+        "TypeScript",
+        "Git"
       ],
       "logo": "/BinanceLogo.png",
       "hexcode": "333333"
@@ -35,25 +35,22 @@
       "endDate": "November 2022",
       "team": "Educator Admin Platform",
       "description": [
-        "Spearheaded the implementation of Educator Home 2.0, elevating university staff members' user experience and productivity",
-        "Engineered API Integrations using GraphQL, resulting in an increase in data retrieval speed and led to improved course tracking efficiency for university staff members",
-        "Successfully implemented Session Assistant Roles by effectively scoping the project and developing verbose unit tests, which led to a decrease in post-implementation bugs and an increase in user efficiency",
-        "Enhanced test coverage efficiency and reduced testing time by 40%, by migrating Enzyme test suites to React Testing Library",
-        "Mentored and onboarded both interns and contractors, advised them on best practices, scoped their projects, and wrote their tickets"
+        "Designed access control and real-time analytics modules using AWS and MySQL to support 5,000+ instructors.",
+        "Built backend APIs and frontend interfaces for Educator Home 2.0 to streamline course setup and boost user engagement.",
+        "Wrote Python automation scripts to validate course data integrity, reducing manual QA effort by 30%.",
+        "Implemented custom telemetry to improve system observability and surface backend performance bottlenecks.",
+        "Resolved critical issues during on-call rotations, ensuring uninterrupted platform accessibility."
       ],
       "techStack": [
-        "Java",
-        "Scala",
-        "AWS ECR",
-        "S3",
-        "Aurora",
-        "React.js",
+        "Python",
+        "React",
         "TypeScript",
+        "AWS",
+        "MySQL",
+        "Git",
         "GraphQL",
-        "Apollo",
-        "Emotion",
-        "React Testing Library",
-        "Jest"
+        "Jest",
+        "Cypress"
       ],
       "logo": "/CourseraLogo.png",
       "hexcode": "0055d3"
@@ -66,24 +63,22 @@
       "endDate": "December 2021",
       "team": "Educator Admin Platform",
       "description": [
-        "Contributed to the enhancement of the user experience for the Educator Home Dashboard and Course Staff Management Page",
-        "Elevated staff productivity in course navigation by implementing Recently Viewed Courses component",
-        "Conducted EPIC experiments and A/B testing plans to roll out, and validate the effectiveness of Recently Viewed Courses",
+        "Developed full-stack features for Educator Home and Course Staff Management using React, Python, GraphQL to streamline instructor workflows.",
+        "Constructed modular API endpoints for course management and rendered dynamic content through Storybook-driven UI components.",
+        "Participated in product A/B testing and backend instrumentation to support data-driven feature rollouts.",
         "Implemented user usage logging via Full Story and Data Dog to gain insightful data on Recently Viewed Course's impact",
         "Enhanced accessibility and cohesiveness by 30% through the successful migration of Coursera UI to Coursera Design System"
       ],
       "techStack": [
-        "Java",
-        "Scala",
-        "AWS ECR",
-        "S3",
-        "Aurora",
-        "React.js",
-        "TypeScript",
+        "Python",
         "GraphQL",
-        "Apollo",
-        "Emotion",
-        "React Testing Library",
+        "React",
+        "TypeScript",
+        "HTML5",
+        "CSS3",
+        "Storybook",
+        "Git",
+        "Enzyme",
         "Jest"
       ],
       "logo": "/CourseraLogo.png",
@@ -102,7 +97,7 @@
         "Project AWOL – Managed and implemented the progress of internal games, engineered a sophisticated algorithm for calculating users’ rank within the company which led to cultivating a competitive yet engaging company culture"
       ],
       "techStack": [
-        "React.js",
+        "React",
         "React Native",
         "iOS",
         "Xcode",
@@ -123,17 +118,19 @@
       "endDate": "August 2019",
       "team": "User Assistance Content Portal, Hybris",
       "description": [
-        "Spearheaded backend improvements within SAP's Help Portal, introducing key features that significantly boosted overall system efficiency.",
-        "Elevated the stability of SAP's User Assistance Portal by implementing robust UI automation tests using JavaScript.",
-        "Achieved comprehensive test coverage to identify and address potential issues.",
+        "Developed internal tools, streamlining workflows and cutting task completion time by 20%.",
+        "Migrated enterprise admin dashboards from Angular to React, reducing load time by 40% and improving maintainability.",
+        "Collaborated with DevOps to improve server-side logging and backend debugging tools, reducing time-to-resolution by 25%.",
         "Enhanced efficiency by strategically migrating automation tests from Protractor.js to Nightwatch.js"
       ],
       "techStack": [
-        "Java",
-        "JavaScript",
-        "Angular.js",
-        "Protractor.js",
-        "Nightwatch.js"
+        "Angular",
+        "React",
+        "TypeScript",
+        "HTML5",
+        "CSS3",
+        "Git",
+        "Docker"
       ],
       "logo": "/SAPLogo.png",
       "hexcode": "00427b"

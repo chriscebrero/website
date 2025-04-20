@@ -1,30 +1,34 @@
-/* eslint-disable react/no-unescaped-entities */
 export default function About() {
 	return (
-		<>
-			<div>
-				<h1 className="text-3xl lg:text-5xl text-[#776B5D] py-4 text-center tracking-wide">
-					About Me
-				</h1>
-				<div className="bg-[#EBE3D5] p-0.5 rounded-lg shadow-lg shadow-black-500/50 mt-8">
-					<p className="text-center my-12 text-[#776B5D] tracking-wide text-xl">
-						Highly motivated and innovative Software Engineer renowned for adept
-						problem-solving and a keen investigative approach to root cause
-						analysis. Backed by a solid foundation in Mathematics and Computer
-						Science, I bring a logical and rewarding perspective to programming.
-						Known for embracing challenges, I consistently contribute innovative
-						solutions to complex problems. A continuous learner with a passion
-						for staying updated on emerging technologies, I leverage a diverse
-						skill set to enhance development processes. Beyond the professional
-						realm, I channel creativity into musical pursuits as a pianist, stay
-						active through sports like volleyball and snowboarding, and enjoy
-						playing Nintendo Switch.
-					</p>
-				</div>
-				<p className="text-center my-12 text-[#776B5D] text-xl">
-					Check out my work experience and projects below.
+		<div className="bg-[var(--color-pistachio)] min-h-screen py-20 px-4 sm:px-8 font-sans text-[#4F463B]">
+			{/* Heading */}
+			<h1 className="text-4xl lg:text-6xl font-extrabold text-center tracking-wide mb-14 drop-shadow-sm">
+				About Me
+			</h1>
+
+			{/* Content Card */}
+			<div className="bg-[var(--color-eggshell)] rounded-3xl shadow-xl max-w-4xl mx-auto px-10 py-12 border border-[var(--color-caramel)]">
+				<p className="text-center text-lg sm:text-xl leading-relaxed tracking-wide">
+					I'm a purpose-driven Software Engineer with a love for building
+					elegant solutions to complex problems. With a solid foundation in
+					Mathematics and Computer Science, I combine logic and creativity to
+					craft meaningful experiences.
+				</p>
+
+				<p className="text-center text-lg sm:text-xl leading-relaxed tracking-wide mt-6">
+					Whether it's refining system architecture or styling pixel-perfect
+					interfaces, I thrive on challenge and growth. Outside of tech, I play
+					piano, spike volleyballs, and dive into snow-covered slopes or cozy
+					Nintendo Switch sessions 🎮.
 				</p>
 			</div>
-		</>
+
+			{/* Soft Outro Line */}
+			<p className="text-center text-lg sm:text-xl mt-16 tracking-wide text-[var(--color-caramel)] font-medium">
+				Explore my{" "}
+				<span className="underline underline-offset-4">experience</span> and{" "}
+				<span className="underline underline-offset-4">projects</span> below.
+			</p>
+		</div>
 	);
 }
